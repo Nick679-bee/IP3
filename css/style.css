@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+}
+.contain{
+    background-image: url(../image/h_img.jpg);
+    background-position: center;
+    height: auto;
+    background-size: cover;
+    text-decoration-color: white;
+    padding-top: 25%;
+    text-align: center;
+
+}
+.front{
+    padding-top: 15%;
+
+}
+#mouse{
+    padding-top: 15%;
+    padding-bottom: 2%;
+
+}
+#aboutus{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 16px;
+    text-align: center;
+
+}
+.services{
+    background-image: url(../image/s_image\ \(1\).jpg);
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    color: white;
+    font-family: 'Yantramanav',sans-serif,;
+}
+.what{
+    padding-top: 2%;
+}
+.hide{
+    display: none;
+}
+.container-fluid, .center{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    font-family: 'Amaranth', sans-serif;
+}
+#form{
+    background-image: url(../image/c_image\ \(1\).jpg);
+}
+#name{
+    margin-left: 12%;
+    color: white;
+}
+#email{
+    margin-left: 5%;
+    color: white;
+}
+.text{
+    width: 80%;
+    height: 80%;
+    border: 2px solid #fff;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.text h1{
+    text-align: center;
+    padding-top: 30%;
+    font-size: 25px;
+    font-style: oblique;
+}
