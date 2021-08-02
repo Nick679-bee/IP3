@@ -59,3 +59,78 @@ $(document).ready(function(){
     });
   
 })
+$(`#work1`).hover(function() {
+  $(`.write1`).show(400);
+},
+() => {
+  $(`#write1`).hide(400);
+}
+)
+
+$(`#work2`).hover(function() {
+  $(`.write2`).show(400);
+},
+() => {
+  $(`.write2`).hide(400);
+}
+)
+
+$(`#work3`).hover(function() {
+  $(`.write3`).show(400);
+},
+() => {
+  $(`.write3`).hide(400);
+}
+)
+
+$(`#work4`).hover(function() {
+  $(`.write4`).show(400);
+},
+() => {
+  $(`.write4`).hide(400);
+}
+)
+
+$(`#work5`).hover(function() {
+  $(`.write5`).show(400);
+},
+() => {
+  $(`.write5`).hide(400);
+}
+)
+
+$(`#work6`).hover(function() {
+  $(`.write6`).show(400);
+},
+() => {
+  $(`.write6`).hide(400);
+}
+)
+
+$(`#work7`).hover(function() {
+  $(`.write7`).show(400);
+},
+() => {
+  $(`.write7`).hide(400);
+}
+)
+
+$(`#work8`).hover(function() {
+  $(`.write8`).show(400);
+},
+() => {
+  $(`.write8`).hide(400);
+}
+)
+let formValidation = () => {
+  if ($(`#name`).val() == ``) {
+      alert(`Fill in your Name`);
+  } else if ($(`#email`).val() == ``) {
+      alert(`Provide your E-mail address`)
+  } else if ($(`#message`).val() == ``) {
+      alert(`Please provide your feedback so that we can serve you better.`)
+  } else {
+      userName = $(`#name`).val();
+      alert(userName + ` we have received your feedback. This will help us serve you better`)
+  }
+}

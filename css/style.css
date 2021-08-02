@@ -93,3 +93,6 @@ body{
     max-height: 100%;
     margin: 15px;
 }
+.textalign{
+    text-align: center;
+}
